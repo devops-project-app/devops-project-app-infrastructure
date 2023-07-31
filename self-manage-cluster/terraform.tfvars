@@ -7,7 +7,7 @@ number_of_workers           = "1"
 include_policy_ebs_csi_driver      = false
 include                     = []
 # docker, cri-docker: config kubernetes cluster with docker (> v1.24). without this tag, containerd will be used
-etcd              : etcd client to communicate with etcd
-helm              : include helm
-ebs-csi-driver    : ebs-csi-driver installed after cluster is created
-argocd            : argocd installed after cluster is created
+# etcd              : etcd client to communicate with etcd
+# helm              : include helm
+# ebs-csi-driver    : ebs-csi-driver installed after cluster is created
+# argocd            : argocd installed after cluster is created
